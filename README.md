@@ -51,12 +51,15 @@ A modern customer-facing booking platform for The Wild Oasis, allowing guests to
 	•	Utilities: React Icons, React Hot Toast, date-fns
 
 🧭 System Overview 
+
 	•	Admin  (Next.js/SSR):
 	◦	Used by hotel staff
 	◦	Manages data (cabins, bookings, guests)
+	
 	•	Website (React/CSR):
 	◦	Used by customers
 	◦	Sends booking requests to backend
+	
 	•	Shared Backend:
 	◦	Supabase handles:
 	▪	Database
